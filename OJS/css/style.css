@@ -22,7 +22,7 @@
 		}
 
 	body, input, select, textarea {
-		color: #444;
+		color: rgb(68, 68, 68);
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-size: 13pt;
 		font-weight: 400;
@@ -30,7 +30,7 @@
 	}
 
 	a {
-		color: #383b43;
+		color: #2da2ca;
 		text-decoration: none;
 	}
 
@@ -1197,6 +1197,7 @@
 		.logo-rodape{
 			float: right;
 		}
+		
 
 /* Grid Demo */
 
