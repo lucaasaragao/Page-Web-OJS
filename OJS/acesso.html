@@ -43,9 +43,7 @@
 						<li><a href="acesso.html" class="button special">Acesso</a></li>
 					</ul>
 				</nav>
-            </header>
-            
-           
+			</header>
 
 		<!-- Banner -->
 				<section id="banner">
@@ -55,50 +53,68 @@
 					</ul>
                 </section>
 
-                 <!-- Main -->
+                <!-- Main -->
 			<section id="main" class="wrapper">
                     <div class="container">
-    
-                        <header class="major">
-                            <h2>Sobre o Portal</h2>
-                        </header>
+                            <form class="cmp_form cmp_form login" id="login" method="post" action="http://150.165.254.102/index.php/index/login/signIn">
+                                <input type="hidden" name="csrfToken" value="8aa2537e5ac5f82fc930308da43d2118">
+                        
+                                
+                                <input type="hidden" name="source" value="">
+                        
+                                <fieldset class="fields">
+                                    <div class="username">
+                                        <label>
+                                            <span class="label">
+                                                Usuário <br>
+                                                <span class="required">*</span>
+                                                <span class="pkp_screen_reader">
+                                                    Obrigatório
+                                                </span>
+                                            </span>
+                                            <input type="text" name="username" id="username" value="" maxlength="32" required="">
+                                        </label>
+                                    </div>
+                                    <div class="password">
+                                        <label>
+                                            <span class="label">
+                                                Senha <br>
+                                                <span class="required">*</span>
+                                                <span class="pkp_screen_reader">
+                                                    Obrigatório
+                                                </span>
+                                            </span>
+                                            <input type="password" name="password" id="password" value="" password="true" maxlength="32" required="">
+                                            <a href="http://150.165.254.102/index.php/index/login/lostPassword">
+                                                Esqueceu a senha?
+                                            </a>
+                                        </label>
+                                    </div>
+                                    <div class="remember checkbox">
+                                        <label>
+                                            <input type="checkbox" name="remember" id="remember" value="1" checked="$remember">
+                                            <span class="label">
+                                                Mantenha-me conectado
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="buttons">
+                                        <button class="submit" type="submit">
+                                            Acesso
+                                        </button>
+                        
+                                                            
+                                            <a href="http://150.165.254.102/index.php/index/user/register?source=" class="register">
+                                                Não é um usuário? Registe-se no site
+                                            </a>
+                                                    </div>
+                                </fieldset>
+                            </form>
+                    </div>
+                </section>
 
-                <!-- Text -->
-                    <section>
-                            <hr />
-                            <p>O <strong> Portal de Periódicos da UFPB </strong> objetiva dar visibilidade à produção científica por meio de revistas eletrônicas científicas elaboradas ou gerenciadas por pesquisadores vinculados à UFPB, possibilitando o acesso e uso de informações científicas e tecnológicas, oferecendo suporte aos editores de periódicos da Instituição, em atenção às determinações da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES) e do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) no que tange a gestão de periódicos científicos. </p>
 
-                                   <p> O Portal de Periódicos Científicos Eletrônicos da UFPB foi inaugurado em 18/05/2006, sendo um dos primeiros do gênero em Universidades Federais brasileiras. Foi viabilizado por meio de uma parceria entre a Pró-Reitoria de Pesquisa e Pós-Graduação da UFPB e o Programa de Pós-Graduação em Ciência da Informação da UFPB (PPGCI/UFPB). </p>
-                                    
-                                    <p> O Portal está vinculado à Editora da UFPB e é coordenado pelo Prof. Dr. Henry Poncio Cruz de Oliveira (DCI/CCSA/UFPB). Utiliza o Open Journal Systems (OJS), desenvolvido pelo Public Knowleadge Project (PKP), que adota as inciativas de acesso aberto ao conhecimento.</p>
 
-                            <header>
-                                    <hr />
-                                <h3>Sobre a criação de Periódicos</h3>
-                                <p>Para criar uma revista no Portal de Periódicos da UFPB é necessário destinar à Coordenação do Portal dois documentos: </p>
-                                <p>a) Documento que vincula a Revista a um Departamento ou programa de Pós-Graduação ou Grupo de Pesquisa Certificado pelo CNPq. </p>
-                                <p>b) Um projeto descritivo contendo:</p>
-                                     <ul>
-                                         <li>Nome da Revista</li>
-                                         <li>Logo da Revista</li>
-                                         <li>Equipe Editorial:</li>
-                                         <p> - Editores (Quem responde pela revista) <br>
-                                                - Comissão Editorial (Grupo pequeno de pesquisadores que apoiam os editores) <br>
-                                                - Conselho Consultivo (Grupo de pesquisadores/avaliadores da Revista) <br>
-                                                - Suporte (Quem resolverá os problemas técnicos da revista) </p>
-                                        <li>Foco e Escopo</li>
-                                        <li>Periodicidade</li>
-                                        <li>Diretrizes para autores (de acordo com as normas da ABNT) </li>
-                                     </ul>   
-                                        
-                                     
-                    
-                                <a href="fluxograma.html">Sobre esse sistema de Publicação</a>
-                            </header>
-                            </section>
-                            </div>
-                            </section>
-    
 <!-- Footer -->
 <footer id="footer">
         <div class="container">
