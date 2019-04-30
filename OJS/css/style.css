@@ -231,7 +231,7 @@
 		outline: 0;
 		padding: 0 1em;
 		text-decoration: none;
-		width: 100%;
+		width: 50%;
 	}
 
 		input[type="text"]:invalid,
@@ -292,7 +292,7 @@
 	}
 
 	textarea {
-		padding: 0.75em 1em;
+		padding: ;
 	}
 
 	input[type="checkbox"],
@@ -524,6 +524,11 @@
 
 /* Image */
 
+	#ojs-img{
+		width: 800px; 
+		height: 400px;
+	}
+
 	.image {
 		border-radius: 4px;
 		border: 0;
@@ -565,6 +570,8 @@
 			.image.fit img {
 				width: 100%;
 			}
+
+			
 
 /* List */
 
