@@ -1038,7 +1038,7 @@
 		background-position: left;
 		background-size: cover;
 		color: #ffffff;
-		padding: 10em 0em 14em;
+		padding: 5em 0em 14em;
 		text-align: left;
 	}
 
@@ -1056,7 +1056,7 @@
 
 		#banner p {
 			font-size: 1.5em;
-			margin-bottom: 2em;
+			margin-bottom: 1em;
 		}
 
 		#banner a img{
@@ -1064,7 +1064,7 @@
 			width: 600px;
 			height: 200px;
 			float: left;
-			margin-left: 3em;
+			margin-left: 10em;
 			
 		}
 
