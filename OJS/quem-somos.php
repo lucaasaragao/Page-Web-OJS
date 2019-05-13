@@ -3,6 +3,8 @@
 ?>
 
         <!-- Main -->
+        <section id="one" class="wrapper style1 special">
+        </section>
 			<section id="main" class="wrapper">
                     <div class="container">
     
@@ -44,7 +46,8 @@
                             </header>
                             </section>
                             </div>
-                            </section>
+                           
+</section>
     
         <?php
             include 'footer.html';
