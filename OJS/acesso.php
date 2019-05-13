@@ -3,6 +3,8 @@
 ?>
 
                 <!-- Main -->
+                <section id="one" class="wrapper style1 special">
+        </section>
 			<section id="main" class="wrapper">
                     <div class="container">
                             <form class="cmp_form cmp_form login" id="login" method="post" action="http://150.165.254.102/index.php/index/login/signIn">

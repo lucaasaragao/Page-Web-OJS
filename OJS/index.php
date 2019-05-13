@@ -3,6 +3,7 @@
 ?>
 
 		<!-- One -->
+			
 			<section id="one" class="wrapper style1 special">
 				<div class="container">
 					<header class="major">
@@ -48,7 +49,7 @@
 					</header>
 						
 				
-						<a href="quem-somos.html" class="button big">Saiba Mais</a>
+						<a href="quem-somos.php" class="button big">Saiba Mais</a>
 		
 				</div>
 				
@@ -89,7 +90,7 @@
 						<p>Estamos prontos para lhe atender!</p>
 						<ul class="actions">
 							<li>
-								<a href="contato.html" class="button big">Conheça nossa equipe	</a>
+								<a href="contato.php" class="button big">Conheça nossa equipe	</a>
 							</li>
 						</ul>
 					</footer>
@@ -110,7 +111,7 @@
 					</div>
 					<ul class="actions">
 						<li>
-							<a href="acesso.html" class="button big">Acesse</a>
+							<a href="acesso.php" class="button big">Acesse</a>
 						</li>
 					</ul>
 				</div>
