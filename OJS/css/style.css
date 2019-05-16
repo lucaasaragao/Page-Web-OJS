@@ -153,6 +153,34 @@
 		text-align: right;
 	}
 
+			/*PRELOADER*/	
+body{
+	overflow: hidden;
+
+}
+
+#loading{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #fff;
+	z-index: 999;
+}
+
+#status{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background-image: url(../images/Eclipse-1s-200px.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: -100px 0 0 -100px;
+}
+
 /* Section/Article */
 
 	section.special, article.special {
@@ -1237,3 +1265,5 @@
 		.grid-demo .row.flush > div:last-child span {
 			border-radius: 0 4px 4px 0;
 		}
+
+	
