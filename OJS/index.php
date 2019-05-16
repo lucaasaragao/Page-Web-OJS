@@ -1,7 +1,6 @@
 <?php
     include 'header.html';
 ?>
-
 		<!-- One -->
 			
 			<section id="one" class="wrapper style1 special">
