@@ -1,8 +1,6 @@
 <?php
     include 'header.html';
 ?>
-
-
                 <!-- Main -->
                 <section id="one" class="wrapper style1 special">
         </section>
