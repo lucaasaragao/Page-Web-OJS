@@ -11,7 +11,7 @@
     
                         <header class="major">
                             <h2>Espaço do Editor</h2>
-                            <p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+                            <p>Bem vindo ao espaço do Editor do Portal de Periódicos da UFPB </p>
                         </header>
     
                         <a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
